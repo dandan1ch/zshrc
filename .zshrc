@@ -124,13 +124,24 @@ docker_full_cleanup() {
 alias dps="docker ps"
 alias dc="docker_cleanup"
 alias dfc="docker_full_cleanup"
+alias dlogs="docker logs -f"
+alias dlog="docker logs -f"
 
 # Kubernetes
 alias k="kubectl"
 alias kdesc="kubectl describe"
 alias kdes="kubectl describe"
 alias klogs="kubectl logs -f"
+alias klog="kubectl logs -f"
 alias kpf="kubectl port-forward"
+alias kexe="kubectl exec -it"
+alias kexec="kubectl exec -it"
+
+alias kapp="kubectl apply -f"
+alias kapply="kubectl apply -f"
+
+alias kdel="kubectl delete -f"
+alias kdelete="kubectl delete -f"
 
 alias kpod="kubectl get pods"
 alias kpods="kubectl get pods"
